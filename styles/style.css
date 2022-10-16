@@ -1,0 +1,81 @@
+@font-face {
+    font-family: avenir;
+    src: url('/fonts/Avenir Font/AvenirLTStd-Black.otf');
+  }
+
+  @font-face {
+    font-family: avenir-ligth;
+    src: url('/fonts/Avenir Font/AvenirLTStd-Book.otf');
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    
+   
+}
+.navbar.scroll{
+    background: #040714;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.home {
+    background-image:linear-gradient(to right, rgb(4,8,20), rgba(255, 255, 255, 0)), url('/img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    font-family: avenir ,sans-serif;    
+    height: 80vh;
+}
+.catalog, .price, .watch, .download-movies, .devices, footer{
+    background: #040714;
+    height: 100%;
+}
+.download-movies{
+    height: 100vh;
+    background-image: url('/img/baixe-filmes.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+#link-planos{
+    background: #6421ff;
+    font-family: avenir-ligth, sans-serif;
+    /* padding: 1.5rem; */
+}
+
+#link-planos:hover{
+    background: #6d30fc;
+    cursor: pointer;
+}
+
+.assine{
+    background: #0063e5;
+}
+
+.link-nav{
+    color: white;
+    border-color: white;
+    font-family: avenir-ligth, sans-serif;
+}
+.link-nav.active{
+    color: white;
+    border-color: white;
+}
+
+.popular{
+    background: linear-gradient(to bottom, #13092c, #35353600);
+    /* border: 4px solid linear-gradient(to bottom, #40187f, #35353600); */
+    /* border-style: hidden; */
+    border-bottom-style: hidden;
+}
+
+@media screen and (max-width: 750px) {
+    .download-movies{
+       background-image: none;
+    }
+  }
