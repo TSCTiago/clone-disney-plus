@@ -35,7 +35,7 @@ body {
 }
 .download-movies{
     height: 100vh;
-    background-image: url('/img/baixe-filmes.png');
+    background-image: url('../img/baixe-filmes.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
