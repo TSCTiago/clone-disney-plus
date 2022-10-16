@@ -21,8 +21,8 @@ body {
 
 
 .home {
-    background-image:linear-gradient(to right, rgb(4,8,20), rgba(255, 255, 255, 0)), url('../img/background.jpg');
-    background-position: center;
+    background-image: url('../img/back-update.jpg');
+    background-position: top;
     background-size: cover;
     overflow: hidden;
     color: white;
