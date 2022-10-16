@@ -70,9 +70,8 @@ body {
 
 .popular{
     background: linear-gradient(to bottom, #13092c, #35353600);
-    /* border: 4px solid linear-gradient(to bottom, #40187f, #35353600); */
-    /* border-style: hidden; */
     border-bottom-style: hidden;
+    /* margin: auto; */
 }
 
 @media screen and (max-width: 750px) {
@@ -85,5 +84,9 @@ body {
 
     .download-movies{
        background-image: none;
+    }
+    .popular{
+        margin-left: 10px!important;
+        margin-right: 10px!important;
     }
   }
