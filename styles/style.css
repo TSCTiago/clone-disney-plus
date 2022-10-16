@@ -28,6 +28,7 @@ body {
     color: white;
     font-family: avenir ,sans-serif;    
     height: 80vh;
+    /* height: 100%; */
 }
 .catalog, .price, .watch, .download-movies, .devices, footer{
     background: #040714;
@@ -75,6 +76,13 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+    .home{
+        background: #040714;
+        background-image: none;
+        height: 100%;
+        padding: 0!important;
+    }
+
     .download-movies{
        background-image: none;
     }
